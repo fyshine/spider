@@ -1,0 +1,21 @@
+[project]
+name = "novel-scraper"
+version = "0.1.0"
+description = "Generic Python novel crawler and text cleaner for chapters and content optimization."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["novel", "scraper", "crawler", "text-cleaning", "python"]
+license = "MIT"
+authors = [
+  { name = "Auto Generated", email = "noreply@example.com" }
+]
+
+[project.urls]
+Home = "https://example.com"
+
+[project.dependencies]
+requests = "^2.31"
+beautifulsoup4 = "^4.13"
+
+[project.scripts]
+novel-scraper = "novel_scraper.cli:main"
